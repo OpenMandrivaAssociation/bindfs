@@ -1,5 +1,5 @@
 Name:           bindfs
-Version:        1.10.3
+Version:        1.10.7
 Release:        1
 Summary:        Fuse filesystem to mirror a directory
 
@@ -23,7 +23,7 @@ recode latin1..utf8 ChangeLog
 %build
 autoreconf -fi
 %configure2_5x
-%make
+%make LIBS="-lpthread"
 
 %install
 %makeinstall_std
