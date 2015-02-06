@@ -1,6 +1,6 @@
 Name:           bindfs
 Version:        1.12.2
-Release:        1
+Release:        2
 Summary:        Fuse filesystem to mirror a directory
 
 Group:          System/Base
