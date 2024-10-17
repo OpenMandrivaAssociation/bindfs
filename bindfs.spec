@@ -5,7 +5,7 @@ Summary:        Fuse filesystem to mirror a directory
 
 Group:          System/Base
 License:        GPLv2+
-URL:            http://code.google.com/p/bindfs/
+URL:            https://code.google.com/p/bindfs/
 Source0:        http://bindfs.googlecode.com/files/bindfs-%{version}.tar.gz
 
 BuildRequires:  fuse-devel
