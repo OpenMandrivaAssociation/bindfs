@@ -1,14 +1,16 @@
-Name:           bindfs
-Version:        1.12.2
-Release:        2
-Summary:        Fuse filesystem to mirror a directory
+%global debug_package %{nil}
 
-Group:          System/Base
-License:        GPLv2+
-URL:            https://code.google.com/p/bindfs/
-Source0:        http://bindfs.googlecode.com/files/bindfs-%{version}.tar.gz
+Name:		bindfs
+Version:	1.18.1
+Release:	1
+Source0:	https://github.com/mpartel/bindfs/archive/refs/tags/%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Summary:	FUSE filesystem for mirroring a directory to another directory
+URL:		https://github.com/mpartel/bindfs
+License:	GPLv2+
+Group:		System/Base
 
-BuildRequires:  fuse-devel
+BuildRequires:	make
+BuildRequires:  lib64fuse3-devel
 BuildRequires:  recode
 
 %description
