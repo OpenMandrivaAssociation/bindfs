@@ -31,6 +31,6 @@ autoreconf -fi
 %makeinstall_std
 
 %files
-%doc COPYING ChangeLog README
+%doc COPYING ChangeLog README.md
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
